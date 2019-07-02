@@ -1,13 +1,44 @@
 # hexo-cake-canvas-ribbon
 
+Canvas Ribbon for [hexo theme cake](https://www.dnocm.com/cake/)
+
 ## How to use
 ```bash
 yarn add hexo-cake-canvas-ribbon
 ```
 
 ## Config
-You can config by `canvas_ribbon`, and [here](default.yaml) is default config file.
+You can config by `canvas_ribbon` in `hexo` `theme` or `data` config files, and [here](default.yaml) is default config file.
 
-- [x] hexo config.
-- [x] theme config.
-- [x] data config.
+In hexo or theme:
+```yml
+canvas_ribbon:
+  size: 300
+  alpha: 0.6
+  zIndex: -1
+  url: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
+```
+
+In data file:
+```yml
+size: 300
+alpha: 0.6
+zIndex: -1
+url: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
+```
+
+## Debug
+```bash
+# init this project
+yarn install
+yarn link
+# get example
+git clone --recursive git@github.com:jiangtj-lab/hexo-theme-cake-example.git example
+cd example
+yarn install
+# take hexo-cake-canvas-ribbon to example
+yarn add hexo-cake-canvas-ribbon
+yarn link hexo-cake-canvas-ribbon
+# run, see http://localhost:4000
+hexo s
+```
