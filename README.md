@@ -2,6 +2,8 @@
 
 Canvas Ribbon for [hexo theme cake](https://www.dnocm.com/cake/)
 
+[![Theme](https://img.shields.io/badge/Theme-Cake:1.1.0-blue.svg)](https://github.com/jiangtj/hexo-theme-cake)
+
 ## How to use
 ```bash
 yarn add hexo-cake-canvas-ribbon
