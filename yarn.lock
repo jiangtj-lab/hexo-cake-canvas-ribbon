@@ -75,10 +75,10 @@ esprima@^4.0.0:
   resolved "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-hexo-extend-injector2@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/hexo-extend-injector2/-/hexo-extend-injector2-0.0.4.tgz#46cdd793ac8f410e6e8221a2a0689b4bf169c2bb"
-  integrity sha512-798vbLPrqAywTvxQ0v5NF9L4yhhEB71NvJZ+fBL+B63qRTzsWRRVwKIoCWvqvwR4RGonM1+6GmTZTC6pAfOzTA==
+hexo-extend-injector2@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-extend-injector2/-/hexo-extend-injector2-0.1.0.tgz#bc764f5e03d1fc6fdfeadc5686455485118f89fe"
+  integrity sha512-bCUMLQ+nXhQSks3EkP72Ip7GYKd1FUz7dyZD6fZ4+1lVmiohCONdY13IsLNlsBKGaPCHQsvvP+20LNQF+RizgA==
   dependencies:
     hexo-util "^1.8.1"
 
