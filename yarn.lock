@@ -75,13 +75,6 @@ esprima@^4.0.0:
   resolved "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-hexo-cake-utils@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/hexo-cake-utils/-/hexo-cake-utils-1.2.1.tgz#4c53c4d88a4be7dc5d966cb2c0082f71178ce0c8"
-  integrity sha512-Fe53AEi49+Ttz2+6gIIDEjB4zxk5FqyMYqzLif3nNwx2ioL9zUz9CjrZzgdgbEgipnFMQp38/mkqDR6agz6heA==
-  dependencies:
-    js-yaml "^3.13.1"
-
 hexo-extend-injector2@^0.0.4:
   version "0.0.4"
   resolved "https://registry.npmjs.org/hexo-extend-injector2/-/hexo-extend-injector2-0.0.4.tgz#46cdd793ac8f410e6e8221a2a0689b4bf169c2bb"
