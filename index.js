@@ -2,9 +2,9 @@
 
 'use strict';
 
-const utils = require('./utils')(hexo, __dirname);
+const utils = require('hexo-cake-utils')(hexo, __dirname);
+const injector = require('hexo-extend-injector2')(hexo);
 
-hexo.extend.filter.register('theme_inject', function(injects) {
-  utils.defaultConfigFile('canvas_ribbon', 'default.yaml');
-  injects.bodyEnd.file('canvas-ribbon', utils.getFilePath('canvas-ribbon.swig'), {}, {cache: true});
-});
+let config = utils.defaultConfigFile('canvas_ribbon', 'default.yaml');
+let script = `<script id="ribbon" size="${config.canvas_ribbon.size}" alpha="${config.canvas_ribbon.alpha}" zIndex="${config.canvas_ribbon.zIndex}" src="${config.canvas_ribbon.url}"></script>`
+injector.register('bodyEnd', script);
